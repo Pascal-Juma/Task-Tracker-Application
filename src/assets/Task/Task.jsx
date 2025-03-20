@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import "./task.css";
+import "./Task.css";
 import Items from "./Items";
 
 const Task = () => {
