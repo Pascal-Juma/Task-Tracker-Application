@@ -1,8 +1,17 @@
-# React + Vite
+# TASK TRACKER APPLICATION
+![project-preview](src/assets/images/preview.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Task Tracker Applicaion is a web application that helps users efficiently manage their tasks. With features that allow you to set task priorities, 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+mark tasks as done, and delete completed tasks, this app is designed to enhance productivity and organization.
+
+## Features
+
+- **Add Tasks**: Quickly add new tasks to your to-do list.
+- **Set Priority**: Assign priority levels (High or Low) to each task to help you focus on what’s important.
+- **Mark as Done**: Easily mark tasks as completed to track your progress.
+- **Delete Tasks**: Remove tasks that are no longer needed or relevant.
+- **User -Friendly Interface**: Intuitive design for a seamless user experience.
+
