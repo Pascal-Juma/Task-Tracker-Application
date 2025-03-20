@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import useStore from "../store/Store";
+import './Task.css'
 
 const Input = () => {
   const [taskTitle, setTaskTitle] = useState(null);
@@ -43,12 +44,14 @@ const Input = () => {
         onChange={handleChangeTaskTitle}
       />
       <textarea
-        placeholder="enter todo description"
+        placeholder="enter task description"
         onChange={handleChangeTaskDescription}
       ></textarea>
+      <div className="task-btn">
       <button className="submit-btn" onClick={handleAddTask}>
         Add todo
       </button>
+      </div>
     </form>
   );
 };

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 *,
 *::after,
@@ -14,8 +15,12 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.7;
   max-width: 112.5em;
   margin: 0 auto;
+  background-color: rgba(5, 5, 5, .2);
+}
+:root{
+  --prime-font: "Libre Baskerville", serif;
 }
