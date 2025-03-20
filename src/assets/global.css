@@ -19,7 +19,7 @@ body {
   line-height: 1.7;
   max-width: 112.5em;
   margin: 0 auto;
-  background-color: rgba(5, 5, 5, .2);
+  background-color: rgba(5, 5, 5, .1);
 }
 :root{
   --prime-font: "Libre Baskerville", serif;
